@@ -6,6 +6,7 @@
 
     <context:annotation-config/>
     <bean class="com.tsyrulik.quoters.ProfilingHandlingBeanPostProcessor"/>
+    <bean class="com.tsyrulik.quoters.PostProxyInvokerContextListener"/>
     <bean class="com.tsyrulik.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
 
     <bean class="com.tsyrulik.quoters.TerminatorQuoter" id="terminatorQuoter">
